@@ -52,21 +52,34 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity","onDestroy");
     }
 
-    public void onClick(View view){
+    public void selectSex(View view){
         Intent intent=new Intent(this,SecondActivity.class);
         intent.putExtra("id","Android Roolz");
         startActivity(intent);
     }
 
-    public void onClick1(View view){
+    public void selectGoogle(View view){
         Intent intent=new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse("http://www.google.com"));
         startActivity(intent);
     }
 
-    public void onClick2(View view){
-        Intent intent=new Intent(Intent.ACTION_DIAL,Uri.parse("tel:1234"));
+    public void selectGallery(View view){
+        Intent intent=new Intent(this,GalleryActivity.class);
         startActivity(intent);
     }
+    public void selectLogin(View view){
+        Intent intent=new Intent(this,ProfileActivity.class);
+        startActivity(intent);
+    }
+    public void selectLogin1(View view){
+        Intent intent=new Intent(this,LoginActivity.class);
+        startActivity(intent);
+    }
+    public void selectList(View view){
+        Intent intent=new Intent(this,ListActivity.class);
+        startActivity(intent);
+    }
+
 
 }

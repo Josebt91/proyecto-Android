@@ -1,29 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#44e9af"
+    android:orientation="vertical"
+    android:gravity="bottom"
     tools:context=".MainActivity">
 
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClick"
+        android:layout_marginHorizontal="30dp"
+        android:onClick="selectLogin1"
+        android:text="@string/Acceder2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:onClick="selectLogin"
+        android:text="@string/Acceder"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="selectSex"
         android:scrollHorizontally="false"
-        android:text="Selección de sexo "
-        tools:background="#96da9158" />
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/SelecciónS"/>
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClick1"
-        android:text="Google"/>
+        android:layout_gravity="center_horizontal"
+        android:onClick="selectGoogle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/Google" />
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClick2"
-        android:text="Telefono"/>
+        android:layout_gravity="center_horizontal"
+        android:onClick="selectGallery"
+        android:text="Galeria"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="selectList"
+        android:text="@string/listaequipos"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"/>
+
+
 
 </LinearLayout>

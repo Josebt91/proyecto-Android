@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/menutoolbarprofile"
+        android:background="@color/colorAccent"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:id="@+id/profileImage"/>
+    <TextView
+        style="@style/Meca"
+        android:text="@string/Username" />
+    <EditText
+        android:id="@+id/username"
+        style="@style/Meca"
+        android:hint="@string/Username"
+        android:inputType="textPersonName"
+        android:lines="1"/>
+
+
+    <TextView
+
+        style="@style/Meca"
+        android:text="@string/Email" />
+    <EditText
+        android:id="@+id/email"
+        style="@style/Meca"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        style="@style/Meca"
+        android:text="@string/Password" />
+    <EditText
+        android:id="@+id/password"
+        style="@style/Meca"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:maxLength="15"/>
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginEnd="30dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 style="@style/Meca"
+                 android:text="@string/Gender"/>
+
+            <RadioButton
+                android:id="@+id/gendermasculine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M"
+
+                />
+            <RadioButton
+                android:id="@+id/genderfemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F"
+
+                />
+
+        </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Meca"
+            android:text="@string/Age"/>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/savedata"
+            android:onClick="guardarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/Save"/>
+
+        <Button
+            android:id="@+id/deletedata"
+            android:onClick="borrarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_light"
+            android:text="@string/Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>

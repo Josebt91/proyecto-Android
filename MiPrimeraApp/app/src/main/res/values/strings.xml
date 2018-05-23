@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">Tinder</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="M">M</string>
+    <string name="F">F</string>
+    <string name="Gender">Gender</string>
+    <string name="Age">Age</string>
+    <string name="Delete">Delete</string>
+    <string name="Save">Save</string>
+    <string name="Acceder">acceder</string>
+    <string name="Google">google</string>
+    <string name="SelecciónS">seleccion de sexo</string>
+    <string name="Login">Login</string>
+    <string name="Cancel">cancel</string>
+    <string name="Register">register</string>
+    <string name="Acceder2">acceso</string>
+    <string name="ErrorLogin">Usuario/Contraseña incompleto</string>
+    <string name="realmadrid">Real Madrid FC</string>
+    <string name="listaequipos">Lista de equipos</string>
+    <string name="Tinder">Tinder</string>
+
+    //FICHEROS
+
+    <string name= "preference_user">
+        miprimeraapp.android.PREFERENCE_USER
+        </string>
+
+    //RECURSOS DIALOGO
+
+    <string name="dialog_message">¿Estás seguro de querer borrar este usuario?</string>
+    <string name="dialog_title">Confirmación</string>
+    <string name="ok">SI</string>
+    <string name="no">NO</string>
+    <string name="cancel">CANCELAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Teamdetail">Detalle Equipos</string>
+    <string name="Detailtextrm">El Real Madrid Club de Fútbol, más conocido simplemente como Real Madrid, es una entidad polideportiva con sede en Madrid, España. Fue declarada oficialmente registrada por sus socios el 6 de marzo de 1902 con el objeto de la práctica y desarrollo del fútbol</string>
+    <string name="Detailtextb">El Real Madrid Club de Fútbol, más conocido simplemente como Real Madrid, es una entidad polideportiva con sede en Madrid, España. Fue declarada oficialmente registrada por sus socios el 6 de marzo de 1902 con el objeto de la práctica y desarrollo del fútbol</string>
+    <string name="Detailtextv">El Real Madrid Club de Fútbol, más conocido simplemente como Real Madrid, es una entidad polideportiva con sede en Madrid, España. Fue declarada oficialmente registrada por sus socios el 6 de marzo de 1902 con el objeto de la práctica y desarrollo del fútbol</string>
+    <string name="Detailboton">WEB OFICIAL</string>
+    <string name="titlelisttoolbar">Lista Equipos</string>
+    <string name="detailteamtoolbar">Detalle Equipo</string>
+
 </resources>
